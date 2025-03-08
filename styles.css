@@ -18,6 +18,20 @@ body.inicio-a {
     cursor: pointer;
     display: none; /* Oculto en pantallas grandes */
 }
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
 body {
   cursor: url('img/cursor.png'), auto;
 }
@@ -999,6 +1013,29 @@ justify-content: center;
 }
 }
 @media (max-width: 600px) {
+     .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: black;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .menu-btn {
+        display: block; /* Aparece en móviles */
+    }
+
+    .menu.active {
+        display: flex;
+    }
 .imagen-central img {
     width: 36%;
 }
