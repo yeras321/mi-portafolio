@@ -987,6 +987,9 @@ justify-content: center;
     .general {
     gap: 10px;       
 }
+    .inicio-a .titulo {
+    height: 200px;
+}
 }
 @media (max-width: 600px) {
 .imagen-central img {
