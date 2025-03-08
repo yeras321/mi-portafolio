@@ -1024,7 +1024,7 @@ justify-content: center;
     .testimonio {
     display: none;
 }
-   . experiencia {
+   .experiencia-home {
     display: none;
 }
     .imagen-central img {
@@ -1074,11 +1074,9 @@ justify-content: center;
 }
     ul.nav-links {
     flex-wrap: nowrap;
-   
     border: 1px solid red;
     height: 50%;
     z-index: 100;
-
     box-shadow: -1px 1px 20px #00000073;
     border-radius: 10px;
 
