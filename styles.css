@@ -96,7 +96,7 @@ li{
 .nav-links a {  
     color: #10171E;
     text-decoration: none;
-    font-size: 16px !important;
+    font-size: clamp(12px, 1vw, 16px) !important;
     background: #ffffff;
     border-radius: 5px;
     padding: 10px 25px;
@@ -962,4 +962,37 @@ img.footer {
     padding: 10px;
     color: white;
 }
+/*--------------------------------------Respònsive------------------*/
+@media (max-width: 768px) {
+.header {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-family: 'Poppins';
+    align-content: center;
+}
+.nav-links {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+}
 
+    .general {
+    gap: 10px;       
+}
+}
+@media (max-width: 600px) {
+.imagen-central img {
+    width: 36%;
+}
+}
