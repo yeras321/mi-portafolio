@@ -1042,6 +1042,7 @@ justify-content: center;
     font-size: clamp(50px, 12.8vw, 164px);
     letter-spacing: clamp(-5px, -0.5vw, -12px) !important;
     line-height: clamp(48px, 12.25vw, 116px);
+        text-align: center;
 }
         .imagen-central img {
         width: 39%;
