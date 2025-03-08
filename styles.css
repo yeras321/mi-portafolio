@@ -141,7 +141,7 @@ li.contacto-btn a {
     gap: 10px;
   }
 
-.titulo{
+.inicio-a .titulo{
     display: flex;
     width: 60%;
     flex-direction: column;
