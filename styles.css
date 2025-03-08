@@ -443,6 +443,10 @@ h3.experiencia strong {
     flex-wrap: nowrap;
     margin-top: 50px;
 }
+.servicios>div:hover {
+    width: 24%;
+    height: 482px;
+}
 .t-ser {
     height:100%;
     align-items: flex-start;
@@ -494,7 +498,6 @@ h3.experiencia strong {
     font-weight: 100;
     font-size: 12px;
     line-height: 12px;
-
 }
 .swiper-slide h3 {
         color: black;
