@@ -143,12 +143,12 @@ li.contacto-btn a {
 
 .inicio-a .titulo{
     display: flex;
-    width: 60%;
+    width: 100%;
     flex-direction: column;
     flex-wrap: nowrap;
     height: 222px;
     font-family: 'JetBrains Mono', monospace;
-    align-items: flex-start;
+    align-items: center;
     text-align: left;
   }
 .general {
