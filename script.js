@@ -177,7 +177,9 @@ const cursor = document.querySelector('.cursor');
                 }, 1000);
             }, 1000); // Tiempo extra para el efecto
         });
-
+document.getElementById("menu-btn").addEventListener("click", function() {
+    document.getElementById("menu").classList.toggle("active");
+});
 
 
        
