@@ -10,7 +10,14 @@ body.inicio-a {
   overflow-x: hidden; /* Evita el desplazamiento horizontal */
    overflow-y: hidden;
 }
-
+.menu-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    display: none; /* Oculto en pantallas grandes */
+}
 body {
   cursor: url('img/cursor.png'), auto;
 }
