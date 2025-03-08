@@ -1098,4 +1098,8 @@ justify-content: center;
     .logo {
     width: 35%;
 }
+    .Seccion-principal {
+    width: 90%;
+    margin: 0 auto;
+}
 }
