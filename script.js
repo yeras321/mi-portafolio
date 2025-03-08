@@ -177,8 +177,13 @@ const cursor = document.querySelector('.cursor');
                 }, 1000);
             }, 1000); // Tiempo extra para el efecto
         });
-document.getElementById("menu-btn").addEventListener("click", function() {
-    document.getElementById("menu").classList.toggle("active");
+document.addEventListener("DOMContentLoaded", function () {
+    const menuBtn = document.getElementById("menu-btn");
+    const menu = document.getElementById("menu");
+
+    menuBtn.addEventListener("click", function () {
+        menu.classList.toggle("active");
+    });
 });
 
 
