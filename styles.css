@@ -157,14 +157,18 @@ li.contacto-btn a {
     width:100%;
     }
 .titulo-dos h4 {
-    font-size: 23px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 17px;
     text-align: center;
     transform: rotateZ(332deg);
     font-family: 'Shadows Into Light Two';
     height: auto;
     color: #d63d2e;
+    width: 50%;
+    margin: 0 auto;
 }
+
+
 
 .nav-links
 {
@@ -227,6 +231,7 @@ h1
     justify-content: center;
     width: 90%;
     margin: 0 auto;
+    min-height: 160px;
 }
 
 
@@ -478,10 +483,7 @@ h3.experiencia strong {
     flex-wrap: nowrap;
     margin-top: 50px;
 }
-.servicios>div:hover {
-    width: 24%;
-    height: 482px;
-}
+
 .t-ser {
     height:100%;
     align-items: flex-start;
@@ -992,6 +994,16 @@ img.footer {
     color: white;
 }
 /*--------------------------------------Respònsive------------------*/
+
+
+@media (max-width: 1024px) {
+.servicios>div {
+  width: 46%;
+    height: 330px;
+}
+}
+
+
 @media (max-width: 800px) {
 .header {
   display: flex;
