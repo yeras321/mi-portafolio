@@ -965,12 +965,11 @@ img.footer {
 /*--------------------------------------Respònsive------------------*/
 @media (max-width: 800px) {
 .header {
-     display: flex;
-    flex-direction: column;
-       justify-content: center;
+  display: flex;
+flex-direction: column;
+justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-   
 }
 .nav-links {
     display: flex;
@@ -982,7 +981,9 @@ img.footer {
     align-items: center;
     align-content: center;
 }
-
+.imagen-central img {
+    width: 30%;
+}
     .general {
     gap: 10px;       
 }
