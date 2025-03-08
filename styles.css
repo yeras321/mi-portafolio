@@ -1021,6 +1021,31 @@ justify-content: center;
 }
 }
 @media (max-width: 600px) {
+    .testimonio {
+    display: none;
+}
+   . experiencia {
+    display: none;
+}
+    .imagen-central img {
+        width: 55%;
+    }
+    p.hola {
+    font-size: Clamp(23px, 1.875vw, 30px);
+     line-height: 29px;
+}
+    h1 {
+    font-size: Clamp(40px, 5.5vw, 50px);
+       line-height: clamp(20px, 5.77vw, 50px);
+}
+    h2 {
+    font-size: clamp(50px, 12.8vw, 164px);
+    letter-spacing: clamp(-5px, -0.5vw, -12px) !important;
+    line-height: clamp(48px, 12.25vw, 116px);
+}
+        .imagen-central img {
+        width: 39%;
+    }
      .menu {
         display: none;
         flex-direction: column;
