@@ -963,18 +963,14 @@ img.footer {
     color: white;
 }
 /*--------------------------------------Respònsive------------------*/
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 .header {
-    width: 90%;
-    height: 80px;
-    display: flex;
+     display: flex;
     flex-direction: column;
-    margin: 20px auto 15px;
-    justify-content: center;
+       justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    font-family: 'Poppins';
-    align-content: center;
+   
 }
 .nav-links {
     display: flex;
