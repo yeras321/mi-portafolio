@@ -103,6 +103,12 @@ li{
      display: block;
     text-align: center;
 }
+a:active {
+    border-bottom: 2px solid #d63d2e;
+    border-radius: 0;
+}
+
+
 a:hover {
     padding: 10px 25px;
     /* border-bottom: 2px solid #10171E; */
