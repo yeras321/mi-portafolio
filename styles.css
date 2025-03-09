@@ -292,6 +292,8 @@ img.iconos-perfil {
 }
 .titulo.perfil-titulo {
     height: auto;
+    width: 90%;
+    margin: 0 auto;
 }
 .habilidades {
    width: 17%;
