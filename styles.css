@@ -316,6 +316,7 @@ img.iconos-perfil {
     flex-direction: column;
     gap: 30px;
     height: 100vh;
+    overflow-y: hidden;
 }
 
 .principal-perfil {
