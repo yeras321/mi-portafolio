@@ -107,7 +107,7 @@ body
 }
 .header {
    width: 90%;
-    height: 80px;
+    height: auto;
     display: flex;
     flex-direction: row;
     margin: 20px auto 15px;
@@ -147,7 +147,12 @@ a:active {
     border-radius: 0;
 }
 
-
+.logo-link a:hover {
+    box-shadow: none;
+    height: 100%;
+    display: block;
+    background: transparent;
+}
 a:hover {
     padding: 10px 25px;
     /* border-bottom: 2px solid #10171E; */
