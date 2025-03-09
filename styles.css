@@ -1007,6 +1007,25 @@ img.footer {
 
 
 @media (max-width: 800px) {
+    .titulos-principales {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+        
+
+.titulo-dos h4 {
+    transform: rotateZ(340deg);
+    width: 60%;
+}
+.principal-perfil {
+    display: flex;
+   margin-bottom: 80px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+}
 .header {
   display: flex;
 flex-direction: column;
