@@ -234,6 +234,7 @@ p.hola{
     margin: 0;
     text-align: center;
     line-height: normal;
+        width: 100%;
 }
 h1
 {
@@ -308,14 +309,14 @@ img.iconos-perfil {
 .perfil-pro-general {
     width: 90%;
     margin: 0 auto;
+   
 }
 .Seccion-principal-servicios {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    height: 100vh;
 }
-
-
 
 .principal-perfil {
     display: grid;
