@@ -1011,7 +1011,7 @@ img.footer {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-        
+    }
 
 .titulo-dos h4 {
     transform: rotateZ(340deg);
