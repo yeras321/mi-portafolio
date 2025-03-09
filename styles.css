@@ -126,6 +126,8 @@ body
     font-family: 'JetBrains Mono', monospace;
     align-items: flex-start;
     text-align: left;
+    margin: 0 auto;
+    align-items: center;    
 }
 li{
   list-style-type: none;
@@ -216,6 +218,7 @@ p.hola{
        padding: 0px 8px;
     margin: 0;
     text-align: center;
+    line-height: normal;
 }
 h1
 {
