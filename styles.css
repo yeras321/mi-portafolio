@@ -1043,6 +1043,9 @@ img.footer {
   width: 46%;
     height: 330px;
 }
+    .nav-links a {
+    padding: 10px 15px;
+}
 }
 
 
