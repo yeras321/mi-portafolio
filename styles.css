@@ -315,8 +315,6 @@ img.iconos-perfil {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    height: 98vh;
-    overflow: hidden;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
