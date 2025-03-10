@@ -337,6 +337,7 @@ img.iconos-perfil {
     height: auto;
     width: 90%;
     margin: 0 auto;
+    align-items: center;
 }
 .habilidades {
    width: 17%;
@@ -396,8 +397,8 @@ img.img-habilidades {
     margin: 80px;
 }
 .titulo.perfil-titulo h2 {
-    font-size: 100px;
-    line-height: 90px;
+    font-size: clamp(40px, 6.25vw, 100px);
+    line-height: clamp(40px, 6.25vw, 100px);
     text-align: left;
     height: auto;
 }
@@ -1057,6 +1058,18 @@ img.footer {
 
 
 @media (max-width: 800px) {
+    .perfil-pro-imc img {
+    width: 50%;
+}
+    .perfil-pro-imc {
+    text-align: center;
+}
+    .titulo.perfil-titulo h2 {
+    font-size: 50px;
+    line-height: 45px;
+    text-align: center !important;
+    height: auto;
+}
   .titulos-principales {
         display: flex;
         flex-direction: column;
@@ -1103,14 +1116,13 @@ justify-content: center;
     .inicio-a .titulo {
     height: 200px;
 }
-      .titulo {
+.titulo {
     justify-content: center;
-    height: 100%;
+    height: 100% !important;
 }
     .titulo-dos {
     width: 40%;
-    display: flex
-;
+    display: flex;
     justify-content: flex-end;
     flex-direction: row;
 }
@@ -1207,6 +1219,8 @@ justify-content: center;
         width: 90%;
         height: 370px;
     }
+
+    
 }
 @media (max-width: 580px) {
     .imagen-central img {
