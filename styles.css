@@ -1181,6 +1181,10 @@ justify-content: center;
     width: 90%;
     margin: 0 auto;
 }  
+        .servicios>div {
+        width: 90%;
+        height: 330px;
+    }
 }
 @media (max-width: 580px) {
     .imagen-central img {
