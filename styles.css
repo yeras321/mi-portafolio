@@ -485,6 +485,10 @@ h3.experiencia strong {
     width: 23%;
     padding: 30px;
     height: 480px;  
+            display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
 }
 .servicios> div li {
        font-size: clamp(12px, 0.833vw, 16px);
@@ -1053,15 +1057,16 @@ img.footer {
 
 
 @media (max-width: 800px) {
-    .titulos-principales {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+  .titulos-principales {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-end;
     }
 
 .titulo-dos h4 {
     transform: rotateZ(340deg);
-    width: 60%;
+    width: 100%;
 }
 .principal-perfil {
     display: flex;
@@ -1100,6 +1105,14 @@ justify-content: center;
 }
       .titulo {
     justify-content: center;
+    height: 100%;
+}
+    .titulo-dos {
+    width: 40%;
+    display: flex
+;
+    justify-content: flex-end;
+    flex-direction: row;
 }
 }
 @media (max-width: 600px) {
@@ -1192,7 +1205,7 @@ justify-content: center;
 }  
         .servicios>div {
         width: 90%;
-        height: 330px;
+        height: 370px;
     }
 }
 @media (max-width: 580px) {
