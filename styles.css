@@ -1135,10 +1135,10 @@ justify-content: center;
         position: absolute;
         top: 60px;
         right: 0;
-        background: black;
         width: 100%;
         text-align: center;
         padding: 10px 0;
+        background:#fff;
     }
 
     .menu li {
@@ -1156,14 +1156,14 @@ justify-content: center;
     width: 36%;
 }
     ul.nav-links {
-    flex-wrap: nowrap;
-    border: 1px solid red;
-    height: 50%;
-    z-index: 100;
-    box-shadow: -1px 1px 20px #00000073;
-    border-radius: 10px;
-
-}
+        flex-wrap: nowrap;
+        height: 65%;
+        z-index: 100;
+        box-shadow: -1px 1px 20px #00000073;
+        width: 70%;
+        gap: 0;
+        right: 10%;
+    }
     .header {
         width: 90%;
         height: 30px;
