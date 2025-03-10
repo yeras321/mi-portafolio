@@ -394,7 +394,8 @@ img.img-habilidades {
     justify-content: center;
     align-content: flex-start;
     gap: 40px;
-    margin: 80px;
+   margin: 0 auto;
+    width: 90%;
 }
 .titulo.perfil-titulo h2 {
     font-size: clamp(40px, 6.25vw, 100px);
@@ -1126,6 +1127,37 @@ justify-content: center;
     justify-content: flex-end;
     flex-direction: row;
 }
+p {
+    text-align: center;
+ }
+.habilidades {
+    width: 100%;
+    height: 159px;
+    padding: 20px;
+    gap: 11px;
+}
+img.img-habilidades {
+    height: 45px;
+    margin: 0 auto;
+}
+    .formacion-a {
+        padding: 30px;
+  
+}
+    .habilidades-perfil h3, .formacion h3 {
+    width: 100%;
+    font-size: 54px;
+    line-height: 48px;
+    text-align: center;
+}
+    .perfil-pro-general {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
 }
 @media (max-width: 600px) {
     .titulo.t-servicios {
@@ -1150,9 +1182,9 @@ justify-content: center;
 }
  
        h2 {
-        font-size: 36px;
+        font-size: 36px !important;
         letter-spacing: -3px;
-        line-height: 36px;
+        line-height: 36px !important;
         text-align: center;
         -webkit-text-stroke: 1px #10171E;
    
@@ -1223,6 +1255,10 @@ justify-content: center;
     
 }
 @media (max-width: 580px) {
+    .habilidades {
+    width: 100%;
+    height: 218px;
+}
     .imagen-central img {
         width: 50%;
     }
