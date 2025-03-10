@@ -1191,7 +1191,7 @@ justify-content: center;
 }
 @media (max-width: 580px) {
     .imagen-central img {
-        width: 90%;
+        width: 50%;
     }
     .titulo-dos {
     width: 100%;
