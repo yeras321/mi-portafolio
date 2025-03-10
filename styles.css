@@ -1120,6 +1120,7 @@ justify-content: center;
 .titulo {
     justify-content: center;
     height: 100% !important;
+    align-items: center;
 }
     .titulo-dos {
     width: 40%;
@@ -1157,7 +1158,44 @@ img.img-habilidades {
     flex-direction: column;
     flex-wrap: nowrap;
 }
+.plantilla-titulo {
+    width: 100%;
+}
+.marca-logo {
+    width: 100%;
+}
+.descripcion-marca {
+    padding: 30px 0;
+}
 
+.descripcion-proyecto {
+     display: flex;
+    flex-direction: column;
+}
+.customer {
+        flex-direction: column;
+    }
+.macbook__seccion {
+     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.Texto {
+    padding: 1rem;
+}
+    img.footer {
+    width: 33%;
+    margin: 20px;
+}
+.footer {
+     margin-top: 10px;
+}
+    .contacto {
+     gap: 30px;
+    margin: 2rem;
+}
 }
 @media (max-width: 600px) {
     .titulo.t-servicios {
