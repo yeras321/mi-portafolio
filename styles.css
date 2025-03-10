@@ -1103,6 +1103,9 @@ justify-content: center;
 }
 }
 @media (max-width: 600px) {
+    .titulo.t-servicios {
+    height: 100%;
+}
     .testimonio {
     display: none;
 }
