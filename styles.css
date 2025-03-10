@@ -1097,6 +1097,9 @@ justify-content: center;
     .inicio-a .titulo {
     height: 200px;
 }
+      .titulo {
+    justify-content: center;
+}
 }
 @media (max-width: 600px) {
     .testimonio {
@@ -1179,10 +1182,16 @@ justify-content: center;
     .Seccion-principal {
     width: 90%;
     margin: 0 auto;
+}  
 }
-}
-@media (max-width: 412px) {
+@media (max-width: 580px) {
     .imagen-central img {
-        width: 100%;
+        width: 90%;
     }
+    .titulo-dos {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
    }
+
+}
