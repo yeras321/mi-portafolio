@@ -1118,9 +1118,9 @@ justify-content: center;
        line-height: clamp(20px, 5.77vw, 50px);
 }
     h2 {
-    font-size: clamp(50px, 12.8vw, 164px);
+    font-size: clamp(40px, 9.143vw, 64px);
     letter-spacing: clamp(-5px, -0.5vw, -12px) !important;
-    line-height: clamp(48px, 12.25vw, 116px);
+    line-height:clamp(44px, 9.143vw, 68px);;
         text-align: center;
 }
         .imagen-central img {
