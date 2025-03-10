@@ -287,9 +287,12 @@ h2.especialidad-b, h3.especialidad-b{
 }
 h2#texto4:hover {
     z-index: 3;
+        color: #10171E;
 }
 h2#texto3:hover {
     z-index: 3;
+    color: transparent;
+    -webkit-text-stroke: 1px #10171E;
 }
 img.comillas {
     width: 18px;
