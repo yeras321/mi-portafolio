@@ -315,8 +315,10 @@ img.iconos-perfil {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    height: 100vh;
-    overflow-y: hidden;
+    height: 98vh;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .principal-perfil {
@@ -1179,3 +1181,8 @@ justify-content: center;
     margin: 0 auto;
 }
 }
+@media (max-width: 412px) {
+    .imagen-central img {
+        width: 100%;
+    }
+   }
