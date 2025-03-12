@@ -310,10 +310,15 @@ img.iconos-perfil {
     width: 30px;
   }
 .perfil-pro-general {
-    width: 90%;
+      width: 90%;
     margin: 0 auto;
-   
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
+   
+
 .Seccion-principal-servicios {
     display: flex;
     flex-direction: column;
@@ -395,7 +400,6 @@ img.img-habilidades {
     align-content: flex-start;
     gap: 40px;
    margin: 0 auto;
-    width: 90%;
 }
 .titulo.perfil-titulo h2 {
     font-size: clamp(40px, 6.25vw, 100px);
