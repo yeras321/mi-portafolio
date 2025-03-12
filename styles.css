@@ -1149,6 +1149,7 @@ img.img-habilidades {
 }
     .formacion-a {
         padding: 30px;
+        width: 100%;
   
 }
     .habilidades-perfil h3, .formacion h3 {
@@ -1301,7 +1302,7 @@ img.img-habilidades {
 @media (max-width: 580px) {
     .habilidades {
     width: 100%;
-    height: 218px;
+    height: 160px;
 }
     .imagen-central img {
         width: 50%;
