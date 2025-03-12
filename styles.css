@@ -564,7 +564,7 @@ h3.experiencia strong {
     background: #d63d2e;
 }
 .swiper-button-next, .swiper-button-prev {
-    color: #d63d2e;
+    color: #d63d2e !important;
 }
 .swiper {
     width: 90%;
