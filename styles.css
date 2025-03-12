@@ -164,7 +164,7 @@ a:active {
     display: block;
     background: transparent;
 }
-a:hover {
+ .menu a:hover {
     padding: 10px 25px;
     /* border-bottom: 2px solid #10171E; */
     box-shadow: 0px 0px 20px 0px #2c30343d;
