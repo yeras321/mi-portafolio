@@ -10,6 +10,12 @@ body.inicio-a {
   overflow-x: hidden; /* Evita el desplazamiento horizontal */
    overflow-y: hidden;
 }
+a.btn-slider{
+transition: transform 0.3s ease-in-out;
+}
+a.btn-slider:hover {
+    transform: scale(1.05);
+}
 .menu-btn {
     background: none;
     border: none;
